@@ -1,6 +1,6 @@
 #!\bin\bash#
 git add -A
-git commit -m "update"
+git commit -m "added bio"
 git push
-keanthony
-HzMRKZqa24AX
+#keanthony
+#HzMRKZqa24AX
