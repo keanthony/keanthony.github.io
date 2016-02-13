@@ -1,5 +1,8 @@
+   
+ 
   body {
-    background-color: lightgray;
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
   }
   
   ul li {
@@ -8,8 +11,8 @@
   }
   
   .container {
-    padding: 10px 10px 10px 10px;
-    margin: 10px 50px 50px 50px;
-    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
     border-radius: 5px;
   }
