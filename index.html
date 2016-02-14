@@ -3,54 +3,87 @@
 
 <head>
     <style>
-       .nav li {
-    display:inline;
-    margin-left:20px;
-    
-}
- .tab {
-    background-color: #595959;
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration:none;
-    }
-  body {
-    background-color: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  ul li {
-    display: inline;
-    margin-left: 50px;
-  }
-  
-  .container {
-    padding: 10px;
-    margin: 50px;
-    background-color: white;
-    border-radius: 5px;
-  }
+        a {
+            display: block;
+            padding: 8px;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        li a:hover {
+            background-color: #111;
+        }
+        
+        .nav li {
+            margin-left: 0px;
+            float: left;
+        }
+        
+        .navbar {
+            background-color: #333333;
+            height: 40px;
+            width: 100%;
+            position: relative;
+        }
+        
+        .pic {
+            border-radius: 50px;
+        }
+        
+        .name {
+            font-family: 'Amatic SC', cursive;
+        }
+        
+        body {
+            background-color: #f2f2f2;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        h1 {
+            font-size: 50px;
+        }
+        
+        ul li {
+            display: inline;
+            margin-left: 50px;
+            overflow: hidden;
+        }
+        
+        .container {
+            padding: 10px;
+            margin: 50px;
+            background-color: white;
+            border-radius: 5px;
+        }
     </style>
     <title>Kevin's Homepage</title>
     <link rel="stylesheet" type="text/css" href="/css/css.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-     <div class="nav">
+    <div class="navbar">
+        <div class="nav">
             <ul>
-                <li class="tab"><a href="index.html"/>Home</a></li>
-                <li class="tab"><a href="resume.html"/>Resume</a></li>
-                <li class="tab"><a href="projects.html"/>Projects</a></li>
-                <li class="tab"><a href="hobbies.html"/>Hobbies</a></li>
+                <li><a href="index.html" />Home</a>
+                </li>
+                <li><a href="resume.html" />Resume</a>
+                </li>
+                <li><a href="projects.html" />Projects</a>
+                </li>
+                <li><a href="hobbies.html" />Hobbies</a>
+                </li>
             </ul>
         </div>
+    </div>
     <center>
-        <h1>Kevin Anthony</h1>
-        <img src="Me.jpg" alt="Me" style="width:300px;height:228px;">
-       
+        <h1 class=n ame>Kevin Anthony</h1>
+        <img class=pic src="Me.jpg" alt="Me" style="width:300px;height:228px;">
+
         <div class="container">
-            <h2>Bio</h2>
+            <h2 class=n ame>Bio</h2>
             <p>I am a Software Development Major at Georgia Gwinnett College. I plan to graduate in May 2016. I work as an ITEC tutor in the Academic Enhancement Center. I enjoy peer tutoring all ITEC subjects and Discrete Math. My hobbies include building
                 computers and spending time with my son. I enjoy exercising, being outdoors, going on adventures, and staying healthy. I enjoy outdoor activities including biking, hiking, rafting, swimming, and canoeing. I place a lot of emphasis on spending
                 time with my family. I volunteer my time to the Running Club and Coding Club at my son's school. I plan to continue all of these activities in the future.
