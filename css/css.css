@@ -24,7 +24,6 @@ li a:hover {
 }
 
 .navbar {
-  opacity: 0.6;
   background-color: #333333;
   height: 50px;
   width: 100%;
@@ -56,6 +55,7 @@ h1 {
   margin-left: 50px;
   overflow: hidden;
   list-style-type: none;
+  padding-top: 5px;
 }
 
 .container {
