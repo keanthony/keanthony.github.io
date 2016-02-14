@@ -24,6 +24,7 @@ li a:hover {
 }
 
 .navbar {
+  opacity: 0.6;
   background-color: #333333;
   height: 50px;
   width: 100%;
@@ -62,4 +63,8 @@ h1 {
   margin: 50px;
   background-color: white;
   border-radius: 5px;
+}
+
+.align-right{
+ float: right;
 }
