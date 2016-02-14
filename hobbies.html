@@ -52,10 +52,11 @@
       font-size: 50px;
     }
     
-    ul li {
+    .navlinks {
       display: inline;
       margin-left: 50px;
       overflow: hidden;
+      list-style-type: none;
     }
     
     .container {
@@ -74,7 +75,7 @@
 <body>
   <div class="navbar">
     <div class="nav">
-      <ul>
+      <ul class="navlinks">
         <li><a href="index.html" />Home</a>
         </li>
         <li><a href="resume.html" />Resume</a>
@@ -87,15 +88,29 @@
     </div>
   </div>
   <center>
-    <h1 class=name>Kevin Anthony</h1>
-
-    <div class="container">
-      <h2 class=name>Projects</h2>
-      <p>
-        <a class="bodylinks" href="https://github.com/keanthony/SD1-Project">Dealing With Death</a>Text based RPG game made in Software Development 1
-      </p>
-    </div>
+    <h1 class="name">Kevin Anthony</h1>
   </center>
+  <div class="container">
+    <center>
+      <h2 class="name">Hobbies</h2>
+    </center>
+    <p>
+      <p>My hobbies include:</p>
+      <ul>
+        <li>Exercising</li>
+        <li>Enjoying the Ourdoors</li>
+        <li>Going on Adventures</li>
+        <ul>
+          <li>Walking</li>
+          <li>Biking</li>
+          <li>Rafting</li>
+          <li>Swimming</li>
+          <li>Canoeing</li>
+        </ul>
+      </ul>
+    </p>
+  </div>
+
 </body>
 
 </html>
